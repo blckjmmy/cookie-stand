@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-<link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Salmon Cookies</title>
 </head>
 
 <body>
-  <Script src="app.js"></Script>
+    <h2>Salmon Cookies</h2>
+    <img src="images/frosted-cookie.jpeg" alt="cookie">
+    <br></br>
+    <h3>Sales Data</h3>
+    <article id="cookieTable"> </article>
+    <br></br>
+    <form id="add-location">Add a location
+        <br>
+        <label for="locationName">Location Name</label>
+        <input type="text" name="locationName" />
+        <br>
+        <label for="minCustomers">Minimum customers per hour</label>
+        <input type="text" name="minCustomers">
+        <br>
+        <label for="maxCustomers">Maximum customers per hour</label>
+        <input type="text" name="maxCustomers">
+        <br>
+        <label for="cookieAverage">Average cookies sold per hour</label>
+        <input type="text" name="cookieAverage">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- <ul id="location-information"></ul> -->
+    <br>
+
+    <h4>Tshirt</h4>
+    <img src="images/shirt.jpeg" alt="shirt">
+    
+    <a href="index.html">Home Page</a>
+
+    <div id="cityProfiles"></div>
+    <div id="store-container"></div>
+    <script src="app.js"></script>
 </body>
+
 </html>
